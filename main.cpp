@@ -1,4 +1,5 @@
 #include <iostream>
+#include "macrodef/wizard.h"
 
 using namespace std;
 

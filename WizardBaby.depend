@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1381587536 source:/home/zcw/testpro/wizardbaby/main.cpp
+	<iostream>
+	"macrodef/wizard.h"
+
+1381588396 /home/zcw/testpro/wizardbaby/macrodef/wizard.h
+	"macro.h"
+
+1381588398 /home/zcw/testpro/wizardbaby/macrodef/macro.h
+
