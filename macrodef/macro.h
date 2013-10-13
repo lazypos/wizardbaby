@@ -27,4 +27,6 @@
 #define STATUS_GAP_BLOOD                (STATUS_GAP_NAME|0X9)       //< 回血
 #define STATUS_GAP_ABUNDANT             (STATUS_GAP_NAME|0Xa)       //< 充沛
 
+// 性格
+
 #endif // MACRO_H_INCLUDED
