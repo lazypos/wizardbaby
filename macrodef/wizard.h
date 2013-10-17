@@ -39,6 +39,11 @@ typedef struct __tag_wizard
 
 }wizard;
 
+typedef struct __tag_backpack
+{
+
+}backpack;
+
 typedef struct __tag_userinfo
 {
     int             uid;                        //< 唯一id
@@ -48,6 +53,20 @@ typedef struct __tag_userinfo
     unsigned long   coupons;                    //< 点券
     int             strength;                   //< 体力
 
+    wizard          wz[6];                      //< 6个精灵
+    int             wztotal;                    //< 精灵总数
+    int             where;                      //< 所在位置
+    int             status;                     //< 状态：战斗或者别的
+
+    int             viplevel;                   //< vip等级
+    int             remaindays;                 //< vip剩余天数
+
+    unsigned long   boolds;                     //< 血量
+    int             victory;                    //< 胜利数
+    int             lost;                       //< 失败数
+    int             fightval;                   //< 战力值
+
+    backpack        pack;                       //< 背包
 }userinfo;
 
 #endif // WIZARD_H_INCLUDED
