@@ -41,9 +41,12 @@ typedef struct __tag_wizard
 
 typedef struct __tag_userinfo
 {
-    int         uid;
-    char        nickname[64];
-
+    int             uid;                        //< 唯一id
+    char            nickname[64];               //< 昵称
+    int             designation;                //< 称号
+    unsigned long   momery;                     //< 金币
+    unsigned long   coupons;                    //< 点券
+    int             strength;                   //< 体力
 
 }userinfo;
 
